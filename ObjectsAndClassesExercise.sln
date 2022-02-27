@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Advertisement Message", "01. Advertisement Message\01. Advertisement Message.csproj", "{80C8865A-F8E9-4D54-8DCB-E318352BD489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Advertisement Message", "01. Advertisement Message\01. Advertisement Message.csproj", "{80C8865A-F8E9-4D54-8DCB-E318352BD489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02. Articles", "T02. Articles\T02. Articles.csproj", "{26E06073-6FFD-4A16-9974-517A1936B741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T02. Articles", "T02. Articles\T02. Articles.csproj", "{26E06073-6FFD-4A16-9974-517A1936B741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03. Articles 2.0", "T03. Articles 2.0\T03. Articles 2.0.csproj", "{A131AA93-A80C-46D4-9353-D4FE9A604234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03. Articles 2.0", "T03. Articles 2.0\T03. Articles 2.0.csproj", "{A131AA93-A80C-46D4-9353-D4FE9A604234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{66CF3667-CFA6-483F-9DB6-5F58AF89ADD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T04. Students", "T04. Students\T04. Students.csproj", "{F24D958C-67CE-4659-BA9F-1D88E71B4792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T05. Teamwork Projects", "T05. Teamwork Projects\T05. Teamwork Projects.csproj", "{2D8D0C09-D011-47B0-B2E9-9291CAED857E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T06. Vehicle Catalogue", "T06. Vehicle Catalogue\T06. Vehicle Catalogue.csproj", "{F92DA130-6673-47BC-A1A1-98865C2008A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T07. Order by Age", "T07. Order by Age\T07. Order by Age.csproj", "{1470C591-B0D0-436D-B812-CC22E0768B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T.06.VehicleCatalog", "T.06.VehicleCatalog\T.06.VehicleCatalog.csproj", "{53E233BE-AD26-4EE5-B2C5-FFAD903006EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +39,30 @@ Global
 		{A131AA93-A80C-46D4-9353-D4FE9A604234}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A131AA93-A80C-46D4-9353-D4FE9A604234}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A131AA93-A80C-46D4-9353-D4FE9A604234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CF3667-CFA6-483F-9DB6-5F58AF89ADD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CF3667-CFA6-483F-9DB6-5F58AF89ADD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CF3667-CFA6-483F-9DB6-5F58AF89ADD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CF3667-CFA6-483F-9DB6-5F58AF89ADD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24D958C-67CE-4659-BA9F-1D88E71B4792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24D958C-67CE-4659-BA9F-1D88E71B4792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24D958C-67CE-4659-BA9F-1D88E71B4792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24D958C-67CE-4659-BA9F-1D88E71B4792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8D0C09-D011-47B0-B2E9-9291CAED857E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8D0C09-D011-47B0-B2E9-9291CAED857E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8D0C09-D011-47B0-B2E9-9291CAED857E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8D0C09-D011-47B0-B2E9-9291CAED857E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92DA130-6673-47BC-A1A1-98865C2008A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92DA130-6673-47BC-A1A1-98865C2008A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92DA130-6673-47BC-A1A1-98865C2008A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92DA130-6673-47BC-A1A1-98865C2008A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1470C591-B0D0-436D-B812-CC22E0768B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1470C591-B0D0-436D-B812-CC22E0768B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1470C591-B0D0-436D-B812-CC22E0768B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1470C591-B0D0-436D-B812-CC22E0768B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E233BE-AD26-4EE5-B2C5-FFAD903006EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E233BE-AD26-4EE5-B2C5-FFAD903006EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E233BE-AD26-4EE5-B2C5-FFAD903006EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E233BE-AD26-4EE5-B2C5-FFAD903006EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
